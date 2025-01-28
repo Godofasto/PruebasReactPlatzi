@@ -1,0 +1,28 @@
+.objetoLista{
+    display: flex; 
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde alrededor del elemento */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    margin: 10px 0; /* Espaciado entre elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.Icon{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+}
+.Icon-check{
+    position: absolute;
+    left: 15px;
+}
+.Icon-check-active{
+    color: green;
+}
