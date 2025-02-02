@@ -1,0 +1,54 @@
+.counterContainer{
+    
+    width: 15vw;
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.plusle{
+    width: 5vw;
+    background-color: transparent;
+    background-image: url('../resources/ArrowBB.png');
+    background-size: cover;
+    transform: rotate(-44deg);
+    border: 0px;
+    margin-top: 1.6vh;
+    transition: ease-in-out 0.65s;
+}
+
+.minum{
+    width: 5vw;
+    background-color: transparent;
+    background-image: url('../resources/ArrowBB.png');
+    background-size: cover;
+    transform: rotate(136deg);
+    border: 0px;
+    margin-bottom: 1.6vh;
+    transition: ease-in-out 0.65s;
+}
+
+.plusle:hover{
+    transition: ease-in-out 0.65s;
+    transform: rotate(-20deg);
+}
+
+.minum:hover{
+    transition: ease-in-out 0.65s;
+    transform: rotate(160deg);
+}
+
+.counterNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    font-family: ancient;
+    font-size: 75px;
+    
+}
+
+@font-face {
+    font-family: ancient;
+    src: url("../resources/Ancient\ Medium.ttf");
+}
